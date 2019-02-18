@@ -1,0 +1,15 @@
+{
+    "name": "dragontrail-developers/base-api",
+    "description": "base api",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.7",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "paris",
+            "email": "suppersoft@gmail.com"
+        }
+    ]
+}
