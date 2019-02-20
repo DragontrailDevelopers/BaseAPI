@@ -1,7 +1,8 @@
 {
     "name": "dragontrail-developers/base-api",
-    "description": "base api",
+    "description": "base api for all api call",
     "type": "library",
+    "license": "GPL-3.0-or-later",
     "require": {
         "laravel/framework": "^5.7",
         "guzzlehttp/guzzle": "^6.3"
@@ -11,5 +12,13 @@
             "name": "paris",
             "email": "suppersoft@gmail.com"
         }
-    ]
+    ],
+    "support": {
+        "email": "dragontraildeveloper@dragontrail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "DragontrailDevelopers\\BaseAPI\\": "src/"
+        }
+    }
 }
