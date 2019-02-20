@@ -4,7 +4,6 @@
     "type": "library",
     "license": "GPL-3.0-or-later",
     "require": {
-        "laravel/framework": "^5.7",
         "guzzlehttp/guzzle": "^6.3"
     },
     "authors": [
